@@ -12,9 +12,9 @@ public class Bishop extends Piece {
 	}
 	
 	public boolean deplacementValide(int departColonne,int departLigne, int arriveeColonne,int arriveeLigne) {
-		int x = Math.abs(departColonne - arriveeColonne);//La diagonale faisant que les coordonn�e s'incr�mentent ou se d�cr�mentent
-		int y = Math.abs(departLigne - arriveeLigne);// proportionnellement, il suffit de regarder si la diff des deux valeurs est toujours �gale.
-		if(departColonne != arriveeColonne && departLigne != arriveeLigne && (x == y) ) {
+		int x = Math.abs(departColonne - arriveeColonne);
+		int y = Math.abs(departLigne - arriveeLigne);
+		if(departColonne != arriveeColonne && departLigne != arriveeLigne && (x == y) ) { // proportionally always equals
 				return true;
 		}
 		else
