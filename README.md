@@ -13,28 +13,3 @@ Puis, dans une boîte de commande:
 <racine du projet>\maven\bin\mvn install
 java -jar target\chess-minimal-project-<version>-SNAPSHOT.jar
 ```
-
-**\*nix**
-
-```
-<racine du projet>/maven/bin/mvn install
-java -jar target\chess-minimal-project-<version>-SNAPSHOT.jar
-```
-
-Contributeurs :
-* Hugo Longuemare (lh805639, sicaduo)
-* Loeiz Labonde (loeiz)
-* Zinedine Chelgham (zZinedine)
-* Alizé Terlaud
-* Lise Hansen (liseh)
-* Audran Bremond 
-* Léo Kitabdjian
-
-Contributeurs :
-* Hugo Longuemare (lh805639, sicaduo)
-* Loeiz Labonde (loeiz)
-* Zinedine Chelgham (zZinedine)
-* Alizé Terlaud
-* Lise Hansen (liseh)
-* Audran Bremond 
-* Léo Kitabdjian
